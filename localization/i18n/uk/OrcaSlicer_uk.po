@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: orcaslicerua\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-01 17:37+0800\n"
-"PO-Revision-Date: 2025-03-03 14:27+0200\n"
+"PO-Revision-Date: 2025-03-03 22:57+0200\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -1854,10 +1854,10 @@ msgid "Fix model"
 msgstr "Виправити модель"
 
 msgid "Export as one STL"
-msgstr "Експортувати як один файл STL"
+msgstr "Експортувати як один STL"
 
 msgid "Export as STLs"
-msgstr "Експортувати як файли STL"
+msgstr "Експортувати як декілька STL"
 
 msgid "Reload from disk"
 msgstr "Перезавантажити з диска"
@@ -3669,6 +3669,10 @@ msgid ""
 "Please make sure whether to use the temperature to print.\n"
 "\n"
 msgstr ""
+"Сопло може бути заблокована, коли температура виходить за межі "
+"рекомендованого діапазону.\n"
+"Переконайтеся, що для друку використовується температура.\n"
+"\n"
 
 #, c-format, boost-format
 msgid ""
@@ -7736,6 +7740,10 @@ msgid ""
 "0 top z distance, 0 interface spacing, interlaced rectilinear pattern and "
 "disable independent support layer height"
 msgstr ""
+"При використанні матеріалу підтримки для інтерфейсу підтримки ми "
+"рекомендуємо наступні налаштування:\n"
+"0 відстань верхнього шару Z, 0 відстань між інтерфейсами, перемежований "
+"прямокутний візерунок та вимкнена незалежна висота шару підтримки"
 
 msgid ""
 "Change these settings automatically? \n"
@@ -7836,7 +7844,7 @@ msgid ""
 "Do you want to proceed?"
 msgstr ""
 "Цю дію неможливо відмінити.\n"
-"\\vХочете продовжити?"
+"Хочете продовжити?"
 
 msgid "Detach preset"
 msgstr "Від'єднати пресет"
@@ -8307,7 +8315,7 @@ msgstr ""
 "Чи я повинен відключити його, щоб включити Firmware Retraction?"
 
 msgid "Firmware Retraction"
-msgstr ""
+msgstr "Апаратне витягування"
 
 msgid "Detached"
 msgstr "Окремий"
@@ -8376,7 +8384,7 @@ msgid "Process Settings"
 msgstr "Налаштування процесу"
 
 msgid "Undef"
-msgstr ""
+msgstr "Невизначено"
 
 msgid "Unsaved Changes"
 msgstr "Незбережені зміни"
@@ -9805,7 +9813,7 @@ msgid "Failed processing of the filename_format template."
 msgstr "Не вдалося обробити шаблон filename_format."
 
 msgid "Printer technology"
-msgstr ""
+msgstr "Технологія принтеру"
 
 msgid "Printable area"
 msgstr "Область друку"
@@ -12462,10 +12470,10 @@ msgid "Speed of internal sparse infill"
 msgstr "Швидкість внутрішнього часткового заповнення"
 
 msgid "Inherits profile"
-msgstr ""
+msgstr "Успадковує профіль"
 
 msgid "Name of parent profile"
-msgstr ""
+msgstr "Назва батьківського профілю"
 
 msgid "Interface shells"
 msgstr "Інтерфейсні оболонки"
@@ -13991,10 +13999,10 @@ msgid "XY separation between an object and its support"
 msgstr "Контролює відстань по XY між об’єктом та його опорою"
 
 msgid "Support/object first layer gap"
-msgstr ""
+msgstr "Проміжок між опорою/об’єктом та першим шаром"
 
 msgid "XY separation between an object and its support at the first layer."
-msgstr ""
+msgstr "Відстань XY між об’єктом та його опорою на першому шарі."
 
 msgid "Pattern angle"
 msgstr "Кут шаблону"
@@ -14330,6 +14338,8 @@ msgid ""
 "This setting specifies the count of support walls in the range of [0,2]. 0 "
 "means auto."
 msgstr ""
+"Ця налаштування визначає кількість опорних стінок в діапазоні [0,2]. 0 "
+"означає автоматичний режим."
 
 msgid "Tree support with infill"
 msgstr "Підтримка дерева із заповненням"
@@ -14907,49 +14917,49 @@ msgid " not in range "
 msgstr " не в зоні "
 
 msgid "Export 3MF"
-msgstr ""
+msgstr "Експортувати 3MF"
 
 msgid "Export project as 3MF."
-msgstr ""
+msgstr "Експортувати проєкт як 3MF."
 
 msgid "Export slicing data"
-msgstr ""
+msgstr "Експортувати дані нарізки"
 
 msgid "Export slicing data to a folder."
-msgstr ""
+msgstr "Експортувати дані нарізки у папку."
 
 msgid "Load slicing data"
-msgstr ""
+msgstr "Завантажити дані про нарізку"
 
 msgid "Load cached slicing data from directory"
-msgstr ""
+msgstr "Завантажити кешовані дані нарізки з каталогу"
 
 msgid "Export STL"
-msgstr ""
+msgstr "Експортувати STL"
 
 msgid "Export the objects as single STL."
-msgstr ""
+msgstr "Експортувати об'єкти як єдиний STL."
 
 msgid "Export multiple STLs"
-msgstr ""
+msgstr "Експортувати декілька STL"
 
 msgid "Export the objects as multiple STLs to directory"
-msgstr ""
+msgstr "Експортувати об'єкти як декілька STL у папку"
 
 msgid "Slice"
-msgstr ""
+msgstr "Нарізка"
 
 msgid "Slice the plates: 0-all plates, i-plate i, others-invalid"
-msgstr ""
+msgstr "Нарізати пластини: 0-всі пластини, i-пластина i, інші-неприпустимі"
 
 msgid "Show command help."
-msgstr ""
+msgstr "Показати довідку про команду."
 
 msgid "UpToDate"
-msgstr ""
+msgstr "До цього часу"
 
 msgid "Update the configs values of 3mf to latest."
-msgstr ""
+msgstr "Оновіть значення конфігурації 3mf до останніх."
 
 msgid "downward machines check"
 msgstr ""
@@ -14975,13 +14985,13 @@ msgid "mtcpp"
 msgstr ""
 
 msgid "max triangle count per plate for slicing."
-msgstr ""
+msgstr "максимальна кількість трикутників на стіл для нарізки."
 
 msgid "mstpp"
 msgstr ""
 
 msgid "max slicing time per plate in seconds."
-msgstr ""
+msgstr "максимальний час нарізки на стіл у секундах."
 
 msgid "No check"
 msgstr "Без перевірки"
@@ -14991,40 +15001,40 @@ msgstr ""
 "Не виконуйте перевірки дійсності, наприклад, перевірку конфліктів шляхуgcode."
 
 msgid "Normative check"
-msgstr ""
+msgstr "Нормативна перевірка"
 
 msgid "Check the normative items."
-msgstr ""
+msgstr "Перевірте нормативні позиції."
 
 msgid "Output Model Info"
-msgstr ""
+msgstr "Вихідна інформація про модель"
 
 msgid "Output the model's information."
-msgstr ""
+msgstr "Виведіть інформацію про модель."
 
 msgid "Export Settings"
-msgstr ""
+msgstr "Експортувати налаштування"
 
 msgid "Export settings to a file."
-msgstr ""
+msgstr "Експортувати налаштування у файл."
 
 msgid "Send progress to pipe"
-msgstr ""
+msgstr "Надіслати прогрес до каналу"
 
 msgid "Send progress to pipe."
-msgstr ""
+msgstr "Надіслати прогрес до каналу."
 
 msgid "Arrange Options"
-msgstr ""
+msgstr "Упорядкувати параметри"
 
 msgid "Arrange options: 0-disable, 1-enable, others-auto"
-msgstr ""
+msgstr "Параметри упорядкування: 0-disable, 1-enable, інші-auto"
 
 msgid "Repetions count"
-msgstr ""
+msgstr "Кількість повторень"
 
 msgid "Repetions count of the whole model"
-msgstr ""
+msgstr "Кількість повторень всієї моделі"
 
 msgid "Ensure on bed"
 msgstr "Переконайтеся, що на столі"
@@ -15039,12 +15049,14 @@ msgid ""
 "Arrange the supplied models in a plate and merge them in a single model in "
 "order to perform actions once."
 msgstr ""
+"Розташувати поставлені моделі на платформі та об’єднати їх в одну модель, "
+"щоб виконати дії один раз."
 
 msgid "Convert Unit"
-msgstr ""
+msgstr "Перетворити одиницю виміру"
 
 msgid "Convert the units of model"
-msgstr ""
+msgstr "Перетворення одиниць моделі"
 
 msgid "Orient Options"
 msgstr "Параметри орієнтації"
@@ -15062,25 +15074,25 @@ msgid "Rotation angle around the Y axis in degrees."
 msgstr "Кут обертання навколо осі Y у градусах."
 
 msgid "Scale the model by a float factor"
-msgstr ""
+msgstr "Масштабуйте модель за допомогою плаваючого коефіцієнта"
 
 msgid "Load General Settings"
-msgstr ""
+msgstr "Завантажити загальні налаштування"
 
 msgid "Load process/machine settings from the specified file"
-msgstr ""
+msgstr "Завантажити налаштування процесу/машини із зазначеного файлу"
 
 msgid "Load Filament Settings"
-msgstr ""
+msgstr "Завантажити налаштування філаменту"
 
 msgid "Load filament settings from the specified file list"
-msgstr ""
+msgstr "Завантажити налаштування філаменту із зазначеного списку файлів"
 
 msgid "Skip Objects"
-msgstr ""
+msgstr "Пропустити об'єкти"
 
 msgid "Skip some objects in this print"
-msgstr ""
+msgstr "Пропустити деякі об'єкти в цьому принті"
 
 msgid "Clone Objects"
 msgstr ""
@@ -15132,18 +15144,20 @@ msgstr ""
 "підтримки різних профілів або для ввімкнення конфігурацій із сховища мережі."
 
 msgid "Output directory"
-msgstr ""
+msgstr "Вихідний каталог"
 
 msgid "Output directory for the exported files."
-msgstr ""
+msgstr "Цільова папка для експортованих файлів."
 
 msgid "Debug level"
-msgstr ""
+msgstr "Рівень налагодження"
 
 msgid ""
 "Sets debug logging level. 0:fatal, 1:error, 2:warning, 3:info, 4:debug, 5:"
 "trace\n"
 msgstr ""
+"Встановлює рівень реєстрації налагодження. 0: непереборний, 1: помилка, 2: "
+"попередження, 3: інформація, 4: налагодження, 5: трасування\n"
 
 msgid "Enable timeplapse for print"
 msgstr ""
@@ -17537,48 +17551,50 @@ msgid "User cancelled."
 msgstr "Користувача скасовано."
 
 msgid "Head diameter"
-msgstr ""
+msgstr "Діаметр голови"
 
 msgid "Max angle"
-msgstr ""
+msgstr "Максимальний кут"
 
 msgid "Detection radius"
-msgstr ""
+msgstr "Радіус виявлення"
 
 msgid "Remove selected points"
-msgstr ""
+msgstr "Видалити вибрані точки"
 
 msgid "Remove all"
 msgstr ""
 
 msgid "Auto-generate points"
-msgstr ""
+msgstr "Автоматично згенерувати точки"
 
 msgid "Add a brim ear"
-msgstr ""
+msgstr "Додати краєчок"
 
 msgid "Delete a brim ear"
-msgstr ""
+msgstr "Видалити краєчок"
 
 msgid "Adjust section view"
-msgstr ""
+msgstr "Налаштувати вид секції"
 
 msgid ""
 "Warning: The brim type is not set to \"painted\",the brim ears will not take "
 "effect !"
 msgstr ""
+"Попередження: Тип краєчка не встановлено на “пофарбований”, краєчки не "
+"матимуть ефекту!"
 
 msgid "Set the brim type to \"painted\""
 msgstr ""
 
 msgid " invalid brim ears"
-msgstr ""
+msgstr " Неправильні краєчки"
 
 msgid "Brim Ears"
-msgstr ""
+msgstr "Краєчки"
 
 msgid "Please select single object."
-msgstr ""
+msgstr "Будь ласка, виберіть один об’єкт."
 
 #: resources/data/hints.ini: [hint:Precise wall]
 msgid ""
